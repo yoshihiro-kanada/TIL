@@ -27,3 +27,14 @@ document.addEventListener('DOMContentLoaded', () => {
 - javascript_pack_tagは'webpacker'gemが提供しているヘルパーメソッド
 
 ## Vue Routerとは
+- Vue.jsを利用したSPA構築で、ルーティング制御するための公式プラグイン
+## Vue Routerのインストール
+```
+  $ yarn add 'vue-router'
+```
+```
+  import Vue from 'vue'
+  import VueRouter from 'vue-router'
+
+  Vue.use(VueRouter)
+```
